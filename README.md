@@ -3,7 +3,7 @@
 The objective of this project/product was to create a model that can utilize computer vision to detect defects, in this case it was defect in food products  
 
 # Data preparation  
-Placing very small colorcoded dots on defects using the coordinates provided by the data provider. This would helps the user to draw the bounding boxes in VGG Image Annotator or any other software to correctly place the boxes and the associated category label on different defect classes. The challenge was that not all defects had been identified by the data provider through the coordinates that came with the dataset.  
+Placing very small colorcoded dots on defects using the coordinates provided by the data provider. This would help the user to draw the bounding boxes in VGG Image Annotator or any other software to correctly place the boxes and the associated category label on different defect classes. The challenge was that not all defects had been identified by the data provider through the coordinates that came with the dataset.  
 Note: diffect data provider may use different locations for the coordinate system origin, such as top left corner or bottom left corner, in addition, in this case different images came in different size. You need to keep these in mind and improvise accordingly to avoid errors.  
 
 
