@@ -23,7 +23,7 @@ A pytorch-based bounding box technique with RetinaNet architecture and Resnet en
 10- Visualize the bounding boxes that failed to be found for your objects, by seeing the objects on the left side which are covered by anchors, whereas on the right side you can see the objects that would be missed in training. This would help you to go back and play with anchor generator parameters to ensure better training  
 11- Instantiate your Learner and evaluation metrics, seting up hyperparameters such as Non-Maximum-Threshold ...  
 12- Split the Learner and add layers for bounding box regression and category classification at the end (top) of your Learner  
-13- Examin the optimum range of learning rate (by visual inspection of LR-Loss graph, and chose the fastest loss descent point) for your model by running a small batch through your model.  
+13- Examine the optimum range of learning rate (by visual inspection of LR-Loss graph, and choose the fastest loss descent point) for your model by running a small batch through your model.  
 14 - Start unfreezing few layers at a time, train, examine the learning rate vs loss graph, adjust the learning range for your layers, and iterate though this step until all layers are trained  
 15- Visualize the performance of your model at the end by showing images with ground truth Bboxes and Predicted Bboxes, side by side  
 16- Run a prediction of your model on a separate test set at the end
